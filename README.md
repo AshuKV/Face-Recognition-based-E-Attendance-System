@@ -35,4 +35,28 @@ Object Localisation i.e., localising the object within an image can be achieved 
 Combining both the techniques we have various versions of RCNN i.e., RCNN, Fast-RCNN, Faster-RCNN but these models are quite slow when they deal in real time.
 Therefore we are using YOLO(You-Only-Look-Once) based model which can process 45 frames per second i.e., fast enough to deal with real time problems.
  ### Results
+The results shown below are evaluated just before 4500 iterations.
+                                                   Test Image:
+                       
+Output Predictions for each class present in the test image: 
+           
+We could also draw mAP-chart (red-line) in the Loss-chart Window. mAP will be calculated for each 4 Epochs, where 1 Epoch = images_in_train_txt / batch iterations. The Loss-chart Window is shown below for 4500 iterations:
+                       
+                                      Loss-chart Window for mAP 
+Output Predictions for each class present in the test image, including the coordinates of each bounding box:
+
+Checking Accuracy mAP at the IoU value 50, we get: 
+
+Generated a text file which stores all the results of the detection phase using all the test images. The below screenshot has been taken from the file - “result.txt” :
+
+
+After increasing the no. of iterations to 5000, we got better results which could is shown as:
+
+
+After parsing the file to the required format, we made a text file containing names of students present on a day, suppose for date 06-02-2020(a part of that file has been attached below), then we first used all required operations to extract the names of the students from that file and then made a database using SQL, where the extract of the DB Browser has also been shown below. Also, the file containing the code to parse the file and for creating the database has also been shown.
+
+SQLite Code to extract object names:
+       
+Sample Output: [
+
 
