@@ -49,20 +49,30 @@ We could also draw mAP-chart (red-line) in the Loss-chart Window. mAP will be ca
 #### Loss-chart Window for mAP
 <img src="https://user-images.githubusercontent.com/48694961/107870669-660f7f80-6ec0-11eb-98e0-c61704551e3d.png" width="400"/>
 
-Output Predictions for each class present in the test image, including the coordinates of each bounding box:
+#### Output Predictions for each class present in the test image, including the coordinates of each bounding box:
+<img src="https://user-images.githubusercontent.com/48694961/107870806-ac191300-6ec1-11eb-972b-e1d8c3073d04.png" width="400"/>
 
-Checking Accuracy mAP at the IoU value 50, we get: 
+#### Checking Accuracy mAP at the IoU value 50, we get:
+<img src="https://user-images.githubusercontent.com/48694961/107870808-ad4a4000-6ec1-11eb-9038-83caef5e30d7.png" width="400"/>
 
-Generated a text file which stores all the results of the detection phase using all the test images. The below screenshot has been taken from the file - “result.txt” :
+#### Generated a text file which stores all the results of the detection phase using all the test images. The below screenshot has been taken from the file - “result.txt” :
 
+<img src="https://user-images.githubusercontent.com/48694961/107871250-da98ed00-6ec5-11eb-99c4-29b68689aee1.png" width="400"/>
 
-After increasing the no. of iterations to 5000, we got better results which could is shown as:
+#### After increasing the no. of iterations to 5000, we got better results which could is shown as:
 
+<img src="https://user-images.githubusercontent.com/48694961/107871251-dbca1a00-6ec5-11eb-9c3b-840a4136da8f.png" width="400"/>
 
 After parsing the file to the required format, we made a text file containing names of students present on a day, suppose for date 06-02-2020(a part of that file has been attached below), then we first used all required operations to extract the names of the students from that file and then made a database using SQL, where the extract of the DB Browser has also been shown below. Also, the file containing the code to parse the file and for creating the database has also been shown.
 
-SQLite Code to extract object names:
+<img src="https://user-images.githubusercontent.com/48694961/107871319-5bf07f80-6ec6-11eb-81ec-5580401ce4ed.png" width="400"/>
+
+#### SQLite Code to extract object names:
+
+<img src="https://user-images.githubusercontent.com/48694961/107871321-5dba4300-6ec6-11eb-858c-56a05668eb6f.png" width="400"/>
        
-Sample Output: [
+#### Sample Output: 
+
+<img src="https://user-images.githubusercontent.com/48694961/107871320-5dba4300-6ec6-11eb-8c0e-70cdcd13967b.png" width="400"/>
 
 
