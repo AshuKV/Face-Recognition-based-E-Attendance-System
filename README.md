@@ -37,14 +37,18 @@ Therefore we are using YOLO(You-Only-Look-Once) based model which can process 45
  ### Results
 The results shown below are evaluated just before 4500 iterations.
 #### Test Image:
+
 <img src="https://user-images.githubusercontent.com/48694961/107733566-54dc3c80-6d21-11eb-9775-354266f3db3d.png" width="400"/>
                        
-Output Predictions for each class present in the test image:
+#### Output Predictions for each class present in the test image:
 
+<img src="https://user-images.githubusercontent.com/48694961/107870605-e71a4700-6ebf-11eb-92b4-622bf9ab9d81.png" width="400"/>
            
 We could also draw mAP-chart (red-line) in the Loss-chart Window. mAP will be calculated for each 4 Epochs, where 1 Epoch = images_in_train_txt / batch iterations. The Loss-chart Window is shown below for 4500 iterations:
                        
-                                      Loss-chart Window for mAP 
+#### Loss-chart Window for mAP
+<img src="https://user-images.githubusercontent.com/48694961/107870669-660f7f80-6ec0-11eb-98e0-c61704551e3d.png" width="400"/>
+
 Output Predictions for each class present in the test image, including the coordinates of each bounding box:
 
 Checking Accuracy mAP at the IoU value 50, we get: 
