@@ -31,10 +31,12 @@ Our Problem of Object Detection can be broken down into two sub-problems :
 
 Object Localisation i.e., localising the object within an image can be achieved through Regression techniques whereas Object Recognition i.e., classifying the object localised within bounding boxes, this can be achieved through classification techniques.
 
-Combining both the techniques we have various versions of RCNN i.e., RCNN, Fast-RCNN, Faster-RCNN but these models are quite slow when they deal in real time.
-Therefore we are using YOLO(You-Only-Look-Once) based model which can process 45 frames per second i.e., fast enough to deal with real time problems.
- ### Results
+Combining both the techniques we have various versions of CNN i.e., RCNN, Fast-RCNN, Faster-RCNN but these models are quite slow when dealt in real time. Therefore we are using YOLO(You-Only-Look-Once) based model which can process 45 frames per second i.e., fast enough to deal with real time problems.
+
+### Results
+
 The results shown below are evaluated just before 4500 iterations.
+
 #### Test Image:
 
 <img src="https://user-images.githubusercontent.com/48694961/107733566-54dc3c80-6d21-11eb-9775-354266f3db3d.png" width="400"/>
